@@ -1,11 +1,15 @@
 # Bike Sharing Case Study
-> Outline a brief description of your project.
+This project shows EDA and multiple linear regression to predict the demand for shared bikes in the future.
 
 
 ## Table of Contents
 * [Problem Statement](#Problem-Statement)
 * [Methods Used](#Methods-Used)
 * [Conclusions](#conclusions)
+* [Technologies Used](#Technologies-Used)
+* [Language](#Language)
+* [IDE](#IDE)
+* [Files](#Files)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -47,27 +51,31 @@ These are the steps used to understand, analyse, predict and present the informa
  * Equation derived from the model can be represented as follows
  * 
 #### Count  = 0.233 * yr - 0.1011 * holiday + 0.4712 * temp - 0.1107 * Spring + 0.0558 * Winter - 0.0688 * July + 0.0658 * September - 0.3002 * Light Snow - 0.0796 * Mist
+* Dataset for this trail wasnt large enough so additional data provided in data will provide a more accurate model in the future.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+* Pandas : 1.2.3
+* numpy : 1.20.3
+* matplotlib: 3.5.2
+* seaborn : 0.11.2
+* scikit-learn : 0.20.3
+* statsmodels : 0.9.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Language
+* Python
+
+## IDE
+* jupyter Notebook
+
+## Files
+* .pynb file -- jupyter file containing the code
+* .pdf file -- subjective questions
+* .csv file -- data set
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+* [1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Edwin Mathew 
