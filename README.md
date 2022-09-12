@@ -4,28 +4,49 @@
 
 ## Table of Contents
 * [Problem Statement](#Problem-Statement)
-* [Technologies Used](#technologies-used)
+* [Methods Used](#Methods-Used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## Problem Statement
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+US Bike-sharing trying to understand the demand for shared bikes after the Covid-19 which has caused a considereable dip in their revenues. The aim of this study is to create a Business Plan which could acceralte the profit after Covid-19 Pandemic.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The Company requirement is as follows -
+
+* To identify the variables that are affecting the use boom bikes e.g. temp, humidity, windspeed, holiday etc.
+
+* Create a linear model that can quantitavely relates to the usage of boom bikes
+
+* Find out the accuracy of the model
+
+## Methods Used
+
+These are the steps used to understand, analyse, predict and present the information :
+
+* Read the file, understand the data and visualize the data to see the behaviour (EDA, Exploraroty Data Analysis)
+* Then the data will be split into trained and test data and train data will be rescalled
+* The Training data will be used to train Data
+* Residual Analysis will conducted
+* Predict and evaluate on the split test set
+* Formulate the equation
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+* Top three of the main contributing features is as follows 
+    * temp (Temperature) - with co-efficient of 0.4712
+    * Light Snow (Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds) - with negative co-efficient of -0.3002
+    * yr (Year) - with co-efficent of 0.2330
+* From EDA it can be observed that 
+    * Spring and winter has the low count of users, while summer and fall tend to be higher count of users
+    * data shows 2019 there where more users than 2018, this could be due to the popularity increase with the product
+    * Month data verifies the data accurated for Season as the season worsens the demand reduces
+    * median on non holiday is higher than holiday, there is slight trend showing non holiday might be better trend
+    * weekday data suggest there median are higher on mon-fri
+    * workingday median shows that working day may be have a slight effect on use
+ * Equation derived from the model can be represented as follows
+ * 
+Count  = 0.233 \times yr - 0.1011 \times holiday + 0.4712 \times temp - 0.1107 \times Spring + 0.0558 \times Winter - 0.0688 \times July + 0.0658 \times September - 0.3002 \times Light Snow - 0.0796 \times Mist
 
 ## Technologies Used
 - library - version 1.0
