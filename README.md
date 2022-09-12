@@ -46,7 +46,7 @@ These are the steps used to understand, analyse, predict and present the informa
     * workingday median shows that working day may be have a slight effect on use
  * Equation derived from the model can be represented as follows
  * 
-Count  = 0.233 \times yr - 0.1011 \times holiday + 0.4712 \times temp - 0.1107 \times Spring + 0.0558 \times Winter - 0.0688 \times July + 0.0658 \times September - 0.3002 \times Light Snow - 0.0796 \times Mist
+#### Count  = 0.233 * yr - 0.1011 * holiday + 0.4712 * temp - 0.1107 * Spring + 0.0558 * Winter - 0.0688 * July + 0.0658 * September - 0.3002 * Light Snow - 0.0796 * Mist
 
 ## Technologies Used
 - library - version 1.0
