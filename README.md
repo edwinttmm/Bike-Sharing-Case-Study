@@ -1,16 +1,16 @@
-# Project Name
+# Bike Sharing Case Study
 > Outline a brief description of your project.
 
 
 ## Table of Contents
-* [General Info](#general-information)
+* [Problem Statement](#Problem-Statement)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
+## Problem Statement
 - Provide general information about your project here.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
